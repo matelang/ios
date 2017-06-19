@@ -1,10 +1,3 @@
-//
-//  ItemDetailViewController.swift
-//  Checklists
-//
-//  Created by M.I. Hollemans on 28/07/15.
-//  Copyright © 2015 Razeware. All rights reserved.
-//
 
 import Foundation
 import UIKit

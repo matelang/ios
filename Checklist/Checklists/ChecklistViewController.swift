@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  Checklists
-//
-//  Created by M.I. Hollemans on 27/07/15.
-//  Copyright © 2015 Razeware. All rights reserved.
-//
 
 import UIKit
 
@@ -18,7 +11,7 @@ class ChecklistViewController: UITableViewController, ItemDetailViewControllerDe
 
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
+    
   }
 
   override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -60,8 +53,8 @@ class ChecklistViewController: UITableViewController, ItemDetailViewControllerDe
     let label = cell.viewWithTag(1000) as! UILabel
     label.text = item.text
     
-    // For debugging
-    //label.text = "\(item.itemID): \(item.text)"
+    
+    
   }
   
   func configureCheckmarkForCell(_ cell: UITableViewCell, withChecklistItem item: ChecklistItem) {

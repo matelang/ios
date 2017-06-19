@@ -1,10 +1,3 @@
-//
-//  DataModel.swift
-//  Checklists
-//
-//  Created by M.I. Hollemans on 30/07/15.
-//  Copyright © 2015 Razeware. All rights reserved.
-//
 
 import Foundation
 

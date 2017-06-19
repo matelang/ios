@@ -1,10 +1,3 @@
-//
-//  Checklist.swift
-//  Checklists
-//
-//  Created by M.I. Hollemans on 30/07/15.
-//  Copyright © 2015 Razeware. All rights reserved.
-//
 
 import UIKit
 
@@ -45,7 +38,7 @@ class Checklist: NSObject, NSCoding {
   }
 
   /*
-  // The functional programming version
+  
   func countUncheckedItems() -> Int {
     return items.reduce(0) { cnt, item in cnt + (item.checked ? 0 : 1) }
   }
